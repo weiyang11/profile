@@ -1,0 +1,73 @@
+.container{
+  width: 500px;   /* This sets the width */
+  margin: 0 auto
+}
+
+.card{
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid rgb(20, 20, 20);
+  margin: 10px
+}
+
+.list{
+  display: block;
+  padding: 0px;
+  list-style: none;
+}
+
+.picture{
+  width: 200px;
+  border-radius: 50%;
+}
+
+body{
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px
+}
+
+h2 {
+  color: rgba(10, 55, 255, 0.8);
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+  color: rgb(10, 200, 10)
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #333ba7;
+  font-size: 20px;
+  transition: 300ms
+}
+
+a:hover {
+  color: rgb(140, 200, 10)
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
